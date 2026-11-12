@@ -6,8 +6,8 @@
 
   // Até 1024px (celulares e tablets): vídeo vertical. Acima de 1024px: vídeo horizontal.
   const SOURCES = {
-    mobile:  { src: 'assets/my-world-mobile.mp4',  poster: 'assets/poster.jpg', w: 390,  h: 844,  showAt: 1.4 },
-    desktop: { src: 'assets/my-world-desktop.mp4', poster: '',                  w: 1920, h: 1080, showAt: 11.0 }
+    mobile:  { src: 'original-mobile-source.mp4',  poster: '', w: 390,  h: 844,  showAt: 1.4 },
+    desktop: { src: 'original-desktop-source.mp4', poster: '', w: 1920, h: 1080, showAt: 11.0 }
   };
 
   // Links reais. Deixe '' para não criar a área clicável daquele ícone.
